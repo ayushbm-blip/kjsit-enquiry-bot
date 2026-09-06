@@ -1,0 +1,8 @@
+In First Year Engineering at KJSIT, the Semester 1 and Semester 2 subjects are common to all four branches: Computer Engineering, Information Technology, Artificial Intelligence and Data Science, and Electronics and Telecommunication.
+In Semester 1, the subjects are: Engineering Mathematics I, Engineering Physics, Engineering Chemistry, Engineering Mechanics, and Basics of Electrical Engineering.
+In Semester 1, students also have lab sessions for Engineering Physics, Engineering Chemistry, Engineering Mechanics, and Basics of Electrical Engineering.
+In Semester 1, students also take Skill-Based Learning (Workshop-I), a Value Education course (Activity-Based Learning on Contemporary Concerns), and a Co-Curricular course.
+In Semester 2, the subjects are: Engineering Mathematics II, Physics and Nanotechnology, Materials Chemistry, Engineering Graphics, and Computer Programming.
+In Semester 2, students also have lab sessions for Physics and Nanotechnology, Materials Chemistry, Engineering Graphics, and Computer Programming.
+In Semester 2, students also take Professional Communication Skills (Ability Enhancement course), Skill-Based Learning (Workshop-II), and an Indian Knowledge System course.
+This is the current First Year curriculum under KJSIT's Autonomy Syllabus Scheme III, aligned with NEP 2020 guidelines, effective from Academic Year 2023-24.

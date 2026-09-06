@@ -1,0 +1,9 @@
+In Third Year Computer Engineering at KJSIT, Semester 5 subjects are: Computer Network, Machine Learning, Software Engineering, one Department-Level Elective, and a Multidisciplinary Minor Course.
+In Semester 5, the Department-Level Elective can be chosen from: Advanced Database Management System, Internet Programming, Web Security, or Probabilistic Graphical Models.
+In Semester 5, students also have lab sessions for Computer Network, Machine Learning, and their chosen Department-Level Elective.
+In Semester 5, students also work on a Community Engagement Minor Project, a Skill Enhancement course in Aptitude, Logic Building and Competitive Programming, and a Value Education course in Business Communication and Ethics.
+In Semester 6, the core subjects are System Programming & Compiler Construction and Deep Learning.
+In Semester 6, students choose one Department-Level Elective from: Quantitative Analysis, Multimedia Systems, Infrastructure Security, or Artificial Intelligence and Soft Computing.
+In Semester 6, students also take a Multidisciplinary Minor course and one Open Elective (Institute-level), chosen from options like Product Lifecycle Management, Reliability Engineering, Management Information System, Design of Experiments, Operations Research, Cyber Security and Laws, Disaster Management, Energy Audit and Management, or Development Engineering.
+In Semester 6, students also work on a Community Engagement Project (Major Project - Part A) and a Cloud Computing skill-based lab.
+This is the current Third Year Computer Engineering curriculum under KJSIT's Autonomy Syllabus Scheme III, aligned with NEP 2020 guidelines, effective for Third Year from Academic Year 2025-26.
