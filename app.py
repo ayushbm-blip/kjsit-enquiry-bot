@@ -1,4 +1,5 @@
 # app.py
+import os
 import streamlit as st
 from rag_engine import get_answer, initialize
 
@@ -18,8 +19,8 @@ if "messages" not in st.session_state:
 if st.session_state.get("init_error"):
     st.error(
         "Could not start the assistant. This is usually because the "
-        "GROQ_API_KEY environment variable is not set, or the data/ "
-        "folder is missing .txt files.\n\n"
+        "GROQ_API_KEY environment variable is not set, or no .txt data "
+        "files were found.\n\n"
         f"Details: {st.session_state.init_error}"
     )
     st.stop()
@@ -38,14 +39,14 @@ for col, q in zip(example_cols, example_questions):
 
 for msg in st.session_state.messages:
     with st.chat_message(msg["role"]):
-        st.write(msg["content"])
+        st.markdown(msg["content"], unsafe_allow_html=True)
 
 question = st.chat_input("Type your question here...") or clicked_example
 
 if question:
     st.session_state.messages.append({"role": "user", "content": question})
     with st.chat_message("user"):
-        st.write(question)
+        st.markdown(question, unsafe_allow_html=True)
 
     with st.chat_message("assistant"):
         with st.spinner("Thinking..."):
@@ -53,5 +54,5 @@ if question:
                 answer = get_answer(question)
             except Exception:
                 answer = "Sorry, I couldn't process that. Please try rephrasing your question."
-           st.markdown(answer, unsafe_allow_html=True)
+            st.markdown(answer, unsafe_allow_html=True)
     st.session_state.messages.append({"role": "assistant", "content": answer})
