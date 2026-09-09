@@ -53,5 +53,5 @@ if question:
                 answer = get_answer(question)
             except Exception:
                 answer = "Sorry, I couldn't process that. Please try rephrasing your question."
-            st.write(answer)
+           st.markdown(answer, unsafe_allow_html=True)
     st.session_state.messages.append({"role": "assistant", "content": answer})
